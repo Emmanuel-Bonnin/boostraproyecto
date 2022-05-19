@@ -1,0 +1,33 @@
+
+
+
+header{
+background-color: rgb(184, 238, 188)!important}
+
+
+/*animaciones*/
+
+.nav-item:hover{
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1)};
+.nav-item{overflow:hidden;
+    transition:all .5s ease-in-out;}
+
+.logo:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2)}
+.logo{
+    overflow:hidden;
+    transition:all .5s ease-in-out;}
+
+.card-body:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2)}
+.card-body{
+    overflow:hidden;
+    transition:all .5s ease-in-out;}
+
+tr:hover{
+    color: rgb(202, 14, 130);}
+td:hover{
+    color: rgb(202, 14, 130);}
