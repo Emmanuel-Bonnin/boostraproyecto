@@ -10,28 +10,32 @@ header{
     
     /*animaciones*/
     
-    .nav-item:hover{
+    .nav-item
+    :hover{
         -webkit-transform:scale(1.1);
-        transform:scale(1.1)};
-    .nav-item{overflow:hidden;
-        transition:all .5s ease-in-out;}
+        transform:scale(1.1);
+    &{overflow:hidden;
+        transition:all .5s ease-in-out;}}
     
-    .logo:hover{
+    .logo
+    :hover{
         -webkit-transform:scale(1.2);
-        transform:scale(1.2)}
-    .logo{
+        transform:scale(1.2);
+    &{
         overflow:hidden;
-        transition:all .5s ease-in-out;}
+        transition:all .5s ease-in-out;}}
     
-    .card-body:hover{
+    .card-body
+    :hover{
         -webkit-transform:scale(1.2);
-        transform:scale(1.2)}
-    .card-body{
+        transform:scale(1.2);
+    &{
         overflow:hidden;
-        transition:all .5s ease-in-out;}
+        transition:all .5s ease-in-out;}}
     
     tr:hover{
         color: rgb(202, 14, 130);}
     td:hover{
         color: rgb(202, 14, 130);}
     
+h1{background-color: aquamarine;}
