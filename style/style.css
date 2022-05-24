@@ -1,37 +1,37 @@
-
 /*header&footer*/
+header {
+  background-color: #7ae481 !important; }
 
-header{
-    background-color: rgb(122, 228, 129)!important}
-    
-    footer{
-    background-color: rgb(122, 228, 129)!important}
-    
-    
-    /*animaciones*/
-    
-    .nav-item:hover{
-        -webkit-transform:scale(1.1);
-        transform:scale(1.1)};
-    .nav-item{overflow:hidden;
-        transition:all .5s ease-in-out;}
-    
-    .logo:hover{
-        -webkit-transform:scale(1.2);
-        transform:scale(1.2)}
-    .logo{
-        overflow:hidden;
-        transition:all .5s ease-in-out;}
-    
-    .card-body:hover{
-        -webkit-transform:scale(1.2);
-        transform:scale(1.2)}
-    .card-body{
-        overflow:hidden;
-        transition:all .5s ease-in-out;}
-    
-    tr:hover{
-        color: rgb(202, 14, 130);}
-    td:hover{
-        color: rgb(202, 14, 130);}
-    
+footer {
+  background-color: #7ae481 !important; }
+
+/*animaciones*/
+.nav-item:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.nav-item {
+  overflow: hidden;
+  transition: all .5s ease-in-out; }
+
+.logo:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+.logo {
+  overflow: hidden;
+  transition: all .5s ease-in-out; }
+
+.card-body:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+.card-body {
+  overflow: hidden;
+  transition: all .5s ease-in-out; }
+
+tr:hover {
+  color: #ca0e82; }
+
+td:hover {
+  color: #ca0e82; }
