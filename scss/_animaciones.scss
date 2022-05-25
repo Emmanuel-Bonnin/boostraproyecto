@@ -1,0 +1,30 @@
+  @import "colores";
+  /*animaciones*/
+    
+  .nav-item
+  :hover{
+      -webkit-transform:scale(1.1);
+      transform:scale(1.1);
+  &{overflow:hidden;
+      transition:all .5s ease-in-out;}}
+  
+  .logo
+  :hover{
+      -webkit-transform:scale(1.2);
+      transform:scale(1.2);
+  &{
+      overflow:hidden;
+      transition:all .5s ease-in-out;}}
+  
+  .card-body
+  :hover{
+      -webkit-transform:scale(1.2);
+      transform:scale(1.2);
+  &{
+      overflow:hidden;
+      transition:all .5s ease-in-out;}}
+  
+  tr:hover{
+      color: $colorlila;}
+  td:hover{
+      color:$colorlila;}

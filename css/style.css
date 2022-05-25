@@ -1,0 +1,55 @@
+/*header&footer*/
+header {
+  background-color: #7ae481 !important; }
+
+footer {
+  background-color: #7ae481 !important; }
+
+/*temasdesalud*/
+h2 {
+  color: #ca0e82; }
+
+/*header&footer*/
+header {
+  background-color: #7ae481 !important; }
+
+footer {
+  background-color: #7ae481 !important; }
+
+/*temasdesalud*/
+h2 {
+  color: #ca0e82; }
+
+/*animaciones*/
+.nav-item
+:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+  .nav-item
+:hover {
+    overflow: hidden;
+    transition: all .5s ease-in-out; }
+
+.logo
+:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+  .logo
+:hover {
+    overflow: hidden;
+    transition: all .5s ease-in-out; }
+
+.card-body
+:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+  .card-body
+:hover {
+    overflow: hidden;
+    transition: all .5s ease-in-out; }
+
+tr:hover {
+  color: #ca0e82; }
+
+td:hover {
+  color: #ca0e82; }
