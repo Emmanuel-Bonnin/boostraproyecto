@@ -1,5 +1,5 @@
 $colorhf:rgb(122, 228, 129);
-$colorlila:rgb(202, 14, 130);
+$colorlila:rgb(80, 4, 95);
 
 
 /*header&footer*/
@@ -11,7 +11,13 @@ footer{
 
 /*temasdesalud*/
 
-h2{color: #ca0e82;}
-    
+h2{color:$colorlila;}
+h5{color:$colorlila;}
+p{color: rgb(102, 101, 101);}
 
 
+/*tablalistadeprestadores*/
+tr:hover{
+    color: $colorlila;}
+td:hover{
+    color:$colorlila;}
