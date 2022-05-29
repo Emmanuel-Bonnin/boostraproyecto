@@ -6,21 +6,19 @@ main .section4 {
   align-items: flex-start;
   justify-content: space-around;
   align-items: center; }
-
-.salud1 {
-  display: flex;
-  align-self: center;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center; }
-
-.container-salud {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center; }
+  main .section4 .container-salud {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center; }
+    main .section4 .container-salud .salud1 {
+      display: flex;
+      align-self: center;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center; }
 
 /*header&footer*/
 header {
