@@ -109,3 +109,23 @@ td:hover {
 :hover {
     overflow: hidden;
     transition: all .5s ease-in-out; }
+
+.linkedin {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px; }
+
+.fb {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px; }
+
+.instagram {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px; }
+
+.twitter {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px; }

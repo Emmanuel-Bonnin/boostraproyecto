@@ -1,0 +1,24 @@
+
+@mixin med-iconredes ( $border-radius)
+ {  border-radius : $border-radius ;
+    width :20px ;
+    height :20px ;
+    
+}
+
+
+.linkedin{ 
+    @include med-iconredes(50%)
+}
+
+.fb{ 
+    @include med-iconredes(50%)
+}
+
+.instagram{ 
+    @include med-iconredes(50%)
+}
+
+.twitter{ 
+    @include med-iconredes(50%)
+}
