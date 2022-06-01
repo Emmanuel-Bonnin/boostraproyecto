@@ -44,10 +44,6 @@ tr:hover {
 td:hover {
   color: #50045f; }
 
-.temassalud {
-  width: 330px;
-  height: 250px; }
-
 /*header&footer*/
 header {
   background-color: #7ae481 !important; }
@@ -73,40 +69,25 @@ td:hover {
   color: #50045f; }
 
 /*animaciones*/
-.nav-item
-:hover {
+.nav-item :hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1); }
-  .nav-item
-:hover {
+  .nav-item :hover {
     overflow: hidden;
     transition: all .5s ease-in-out; }
 
-.logo
-:hover {
+.card-body :hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2); }
-  .logo
-:hover {
-    overflow: hidden;
-    transition: all .5s ease-in-out; }
-
-.card-body
-:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2); }
-  .card-body
-:hover {
+  .card-body :hover {
     overflow: hidden;
     transition: all .5s ease-in-out; }
 
 /*imagensaludprevencion*/
-.salud1
-:hover {
+.salud1 :hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3); }
-  .salud1
-:hover {
+  .salud1 :hover {
     overflow: hidden;
     transition: all .5s ease-in-out; }
 
@@ -129,3 +110,21 @@ td:hover {
   border-radius: 50%;
   width: 20px;
   height: 20px; }
+
+/*maps 1*/
+/*maps 2*/
+/*imagenes de section 4 */
+.temassalud {
+  width: 330px;
+  height: 250px;
+  border-radius: 8px; }
+
+.logo, .logo2 {
+  width: 130px;
+  height: auto; }
+  .logo:hover, .logo2:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+    .logo:hover, .logo2:hover {
+      overflow: hidden;
+      transition: all .5s ease-in-out; }

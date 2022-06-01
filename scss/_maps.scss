@@ -1,0 +1,23 @@
+/*maps 1*/
+$medidas1:(
+
+    ancho: 330px,
+    alto: 330px,
+    bordes: 8px,
+);
+/*maps 2*/
+$medidas2:(
+
+    ancho: 330px,
+    alto: 250px,
+    bordes: 8px,
+);
+
+
+/*imagenes de section 4 */
+.temassalud{
+    width: map-get($medidas1, ancho );
+    height: map-get($medidas2, alto );
+    border-radius: map-get($medidas1,bordes )
+
+}

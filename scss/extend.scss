@@ -1,0 +1,16 @@
+.logo{
+width: 130px;
+height: auto;
+&:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+&{
+    overflow:hidden;
+    transition:all .5s ease-in-out;}}
+
+}
+
+.logo2{
+@extend.logo
+
+}
