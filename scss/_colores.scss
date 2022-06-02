@@ -4,7 +4,7 @@ $colorgris:rgb(102, 101, 101);
 $colorrojo:rgb(209, 2, 2);
 $colorblanco:rgb(255, 255, 255);
 $colorverde:rgb(1, 201, 28);
-$colorazul:rgb(19, 8, 165);
+$colorazul:rgb(89, 49, 153);
 $coloramarillo:rgb(250, 246, 0);
 
 $coloresprincipal: ( 
@@ -18,7 +18,7 @@ $coloresprincipal: (
 $coloressecundarios: (
     $colorrojo:rgb(209, 2, 2),
     $colorverde:rgb(1, 201, 28),
-    $colorazul:rgb(19, 8, 165),
+    $colorazul:rgb(89, 49, 153),
     $coloramarillo:rgb(250, 246, 0),
 
 );
@@ -37,10 +37,18 @@ footer{
     background-color:$colorhf!important}
 
 /*temasdesalud*/
-
-h2{color:$colorlila;}
-h5{color:$colorlila;}
-p{color:$colorgris}
+h1{display: flex;
+    justify-content: space-evenly;
+    color:$colorazul;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{color:$colorlila;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h3{color:$colorlila;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+p{color:$colorgris;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 20px;}
 
 
 /*tablalistadeprestadores*/
