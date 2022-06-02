@@ -1,4 +1,4 @@
-$colorhf:rgb(122, 228, 129);
+$colorhf:rgb(67, 202, 55);
 $colorlila:rgb(80, 4, 95);
 $colorgris:rgb(102, 101, 101);
 $colorrojo:rgb(209, 2, 2);
@@ -8,7 +8,7 @@ $colorazul:rgb(89, 49, 153);
 $coloramarillo:rgb(250, 246, 0);
 
 $coloresprincipal: ( 
-    $colorhf:rgb(122, 228, 129),
+    $colorhf:rgb(73, 85, 74),
     $colorlila:rgb(80, 4, 95),
     $colorgris:rgb(102, 101, 101),
     $colorblanco:rgb(255, 255, 255),
@@ -31,10 +31,10 @@ $coloressecundarios: (
 /*header&footer*/
 
 header{
-    background-color:$colorhf!important}
+    background-color:$colorlila!important}
 
 footer{
-    background-color:$colorhf!important}
+    background-color:$colorlila!important}
 
 /*temasdesalud*/
 h1{display: flex;
@@ -48,7 +48,7 @@ h3{color:$colorlila;
     font-family: Verdana, Geneva, Tahoma, sans-serif;}
 p{color:$colorgris;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
- font-size: 20px;}
+ font-size: 18px;}
 
 
 /*tablalistadeprestadores*/
