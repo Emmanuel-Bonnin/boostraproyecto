@@ -31,10 +31,10 @@ $coloressecundarios: (
 /*header&footer*/
 
 header{
-    background-color:$colorlila!important}
+    background: linear-gradient(to bottom, $colorlila, white)!important};
 
 footer{
-    background-color:$colorlila!important}
+    background: linear-gradient(to bottom, $colorlila, white)!important};
 
 /*temasdesalud*/
 h1{display: flex;

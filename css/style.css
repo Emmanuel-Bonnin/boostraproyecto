@@ -22,10 +22,13 @@ main .section4 {
 
 /*header&footer*/
 header {
-  background-color: #50045f !important; }
+  background: linear-gradient(to bottom, #50045f, white) !important; }
+
+main {
+  background: linear-gradient(170deg, #e8e0e0, white); }
 
 footer {
-  background-color: #50045f !important; }
+  background: linear-gradient(to bottom, #50045f, white) !important; }
 
 /*temasdesalud*/
 h1 {
@@ -56,10 +59,13 @@ td:hover {
 
 /*header&footer*/
 header {
-  background-color: #50045f !important; }
+  background: linear-gradient(to bottom, #50045f, white) !important; }
+
+main {
+  background: linear-gradient(170deg, #e8e0e0, white); }
 
 footer {
-  background-color: #50045f !important; }
+  background: linear-gradient(to bottom, #50045f, white) !important; }
 
 /*temasdesalud*/
 h1 {
