@@ -24,9 +24,6 @@ main .section4 {
 header {
   background: linear-gradient(to bottom, #50045f, white) !important; }
 
-main {
-  background: linear-gradient(170deg, #e8e0e0, white); }
-
 footer {
   background: linear-gradient(to bottom, #50045f, white) !important; }
 
@@ -60,9 +57,6 @@ td:hover {
 /*header&footer*/
 header {
   background: linear-gradient(to bottom, #50045f, white) !important; }
-
-main {
-  background: linear-gradient(170deg, #e8e0e0, white); }
 
 footer {
   background: linear-gradient(to bottom, #50045f, white) !important; }
