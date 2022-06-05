@@ -92,9 +92,7 @@ td:hover {
 
 .nav-item :hover {
   background-color: #6310b1;
-  border-radius: 20px;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1); }
+  border-radius: 20px; }
 
 .card-body :hover {
   -webkit-transform: scale(1.2);
