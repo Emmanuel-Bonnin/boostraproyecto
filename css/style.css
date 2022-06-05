@@ -1,3 +1,7 @@
+.nav-item {
+  display: flex;
+  justify-content: center; }
+
 main .section4 {
   margin: auto;
   padding: 1px;
@@ -25,6 +29,10 @@ h1 h2 h3 {
 
 p {
   font-family: 'Roboto', sans-serif;
+  font-size: 18px; }
+
+.nav-item {
+  font-family: "Roboto";
   font-size: 18px; }
 
 /*header&footer*/
@@ -86,10 +94,7 @@ td:hover {
   color: #50045f; }
 
 /*animaciones*/
-.nav-item :hover {
-  -webkit-transition: .1s linear;
-  transition: .1s linear; }
-
+/*navbar*/
 .nav-item :hover {
   background-color: #6310b1;
   border-radius: 20px; }
