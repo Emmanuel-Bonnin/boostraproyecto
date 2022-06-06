@@ -2,21 +2,23 @@
   display: flex;
   justify-content: center; }
 
-main .section4 {
-  margin: auto;
-  padding: 1px;
+main .articuloprevencion {
+  margin: 20px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
   align-items: center; }
-  main .section4 .container-salud {
+  main .articuloprevencion .container-salud {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center; }
-    main .section4 .container-salud .salud1 {
+    main .articuloprevencion .container-salud .salud1 {
+      margin: 20px;
+      padding: 20px;
       display: flex;
       align-self: center;
       flex-direction: column;
@@ -24,12 +26,31 @@ main .section4 {
       align-content: center;
       align-items: center; }
 
+.container_footer {
+  margin: 20px;
+  padding: 30px; }
+
+.unimedh1 {
+  padding: 25px;
+  margin: 25px; }
+
+.novedades {
+  padding: 25px;
+  margin: 25px; }
+
+.temah2 {
+  padding: 25px;
+  margin: 25px; }
+
 h1 h2 h3 {
   font-family: 'Roboto', sans-serif; }
 
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 18px; }
+
+.unimedh1 {
+  font-family: 'Roboto', sans-serif; }
 
 .nav-item {
   font-family: "Roboto";
@@ -99,13 +120,6 @@ td:hover {
   background-color: #6310b1;
   border-radius: 20px; }
 
-.card-body :hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2); }
-  .card-body :hover {
-    overflow: hidden;
-    transition: all .5s ease-in-out; }
-
 /*imagensaludprevencion*/
 .salud1 :hover {
   -webkit-transform: scale(1.3);
@@ -136,7 +150,7 @@ td:hover {
 
 /*maps 1*/
 /*maps 2*/
-/*imagenes de section 4 */
+/*articuloprevencion 4 */
 .temassalud {
   width: 330px;
   height: 250px;
@@ -157,4 +171,6 @@ td:hover {
   border-width: 1px !important;
   border-style: solid !important;
   border-radius: 20px !important;
-  border-color: #a3a3a3 !important; }
+  border-color: #a3a3a3 !important;
+  margin-top: 50px;
+  margin-bottom: 50px; }

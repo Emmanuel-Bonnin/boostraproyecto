@@ -10,9 +10,9 @@
 
 
 
-main {
-    .section4{margin: auto;
-    padding: 1px;
+main {.articuloprevencion
+  { margin:20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -27,7 +27,9 @@ main {
     align-content: center;
   
     .salud1{
-        display: flex;
+    margin:20px;
+    padding:20px;  
+    display: flex;
     align-self: center;
     flex-direction: column;
     justify-content: center;
@@ -36,3 +38,23 @@ main {
     
     }}}}
 
+    .container_footer{
+margin: 20px;
+padding:30px ;
+
+    }
+
+.unimedh1{
+padding: 25px;
+margin:25px;
+}
+
+.novedades{
+  padding: 25px;
+margin:25px;
+}
+
+.temah2{
+  padding: 25px;
+  margin:25px;
+}

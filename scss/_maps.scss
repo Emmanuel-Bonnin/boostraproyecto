@@ -14,10 +14,14 @@ $medidas2:(
 );
 
 
-/*imagenes de section 4 */
+/*articuloprevencion 4 */
 .temassalud{
     width: map-get($medidas1, ancho );
     height: map-get($medidas2, alto );
     border-radius: map-get($medidas1,bordes )
 
 }
+
+
+
+
