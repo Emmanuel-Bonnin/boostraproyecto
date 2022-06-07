@@ -1,4 +1,4 @@
-
+@import "colores";
 /*numero telefono*/
 .telefonocontacto{
     color: red;
@@ -13,7 +13,7 @@
 
 .form-registro{
   width: 400px;
-  background-color: rgb(34, 11, 125);
+  background: linear-gradient(to bottom, $colorlila, rgb(11, 92, 112))!important;
   padding: 30px;
   margin: auto;
   margin-top: 50px;
@@ -25,4 +25,18 @@
 
 }
 
+.data{width: 300px;
+
+}
+
+.submit{background: rgb(1, 207, 29);
+  margin-top: 20px;
+  margin-left: 100px;
+  padding: 15px;
+  font-family: "Roboto";
+  border-radius: 30px;
+  color: white;
+
+
+}
 
