@@ -202,3 +202,14 @@ td:hover {
   border-color: #a3a3a3 !important;
   margin-top: 50px;
   margin-bottom: 50px; }
+
+.form-registro {
+  width: 400px;
+  background-color: #220b7d;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-family: "Roboto";
+  color: white; }
