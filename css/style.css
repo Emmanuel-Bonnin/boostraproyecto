@@ -42,7 +42,17 @@ main .articuloprevencion {
   padding: 25px;
   margin: 25px; }
 
-h1 h2 h3 {
+.card {
+  width: 18rem;
+  margin: 20px; }
+
+.container-novedades {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+h1 h2 h3 h4 h5 {
   font-family: 'Roboto', sans-serif; }
 
 p {
@@ -75,6 +85,12 @@ h2 {
 h3 {
   color: #50045f; }
 
+h4 {
+  color: #50045f; }
+
+h5 {
+  color: #50045f; }
+
 p {
   color: #666565; }
 
@@ -102,6 +118,12 @@ h2 {
   color: #50045f; }
 
 h3 {
+  color: #50045f; }
+
+h4 {
+  color: #50045f; }
+
+h5 {
   color: #50045f; }
 
 p {
