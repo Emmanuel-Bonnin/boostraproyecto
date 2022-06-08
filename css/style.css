@@ -160,23 +160,23 @@ td:hover {
 
 .linkedin {
   border-radius: 50%;
-  width: 20px;
-  height: 20px; }
+  width: 35px;
+  height: 35px; }
 
 .fb {
   border-radius: 50%;
-  width: 20px;
-  height: 20px; }
+  width: 35px;
+  height: 35px; }
 
 .instagram {
   border-radius: 50%;
-  width: 20px;
-  height: 20px; }
+  width: 35px;
+  height: 35px; }
 
 .twitter {
   border-radius: 50%;
-  width: 20px;
-  height: 20px; }
+  width: 35px;
+  height: 35px; }
 
 /*maps 1*/
 /*maps 2*/
@@ -256,7 +256,7 @@ td:hover {
   width: 300px; }
 
 .submit {
-  background: #01cf1d;
+  background: #610c83;
   margin-top: 20px;
   margin-left: 100px;
   padding: 15px;
