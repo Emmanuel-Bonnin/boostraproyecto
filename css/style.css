@@ -56,6 +56,21 @@ main .articuloprevencion {
   justify-content: center;
   align-items: center; }
 
+/* seccion afiliaciones*/
+.quieroafiliarme {
+  display: flex;
+  justify-content: center; }
+
+.afiliacion_1 {
+  display: flex;
+  flex-direction: column;
+  margin: 15px; }
+
+.afiliacion_2 {
+  display: flex;
+  flex-direction: column;
+  margin: 15px; }
+
 h1 h2 h3 h4 h5 {
   font-family: 'Roboto', sans-serif; }
 
@@ -246,8 +261,8 @@ td:hover {
   background: linear-gradient(to bottom, #50045f, #0b5c70) !important;
   padding: 30px;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   border-radius: 10px;
   font-family: "Roboto";
   color: white; }
