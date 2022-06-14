@@ -111,3 +111,35 @@ margin: 20px;}
 }
 
 }
+
+@media only screen and (min-width:760px) and (max-width:1023px)
+{main .articuloprevencion {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+main .articuloprevencion .container-salud {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-content: center;}
+
+
+
+.containerarticulosalud{
+display: flex;
+
+}
+.container-salud2 {
+  display: flex;
+  flex-direction: column;}
+
+.container-credencial {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+
+}
+}
