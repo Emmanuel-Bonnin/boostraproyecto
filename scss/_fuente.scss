@@ -1,3 +1,5 @@
+@import"colores";
+
 h1 h2 h3 h4 h5{
     font-family: 'Roboto', sans-serif;
 
@@ -10,9 +12,22 @@ p{
 
 .unimedh1{
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+   
+
+}
+.h1afiliaciones{ font-family: 'Roboto', sans-serif;
+    font-size: 35px!important;
+    font-weight: 600;
+    color: $colorlila;
 
 }
 
+.h2afiliaciones{ font-family: 'Roboto', sans-serif;
+    font-size: 35px!important;
+    font-weight: 600;
+    color: $colorlila;
+}
 .nav-item{
       
     font-family:"Roboto";

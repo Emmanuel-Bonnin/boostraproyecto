@@ -23,7 +23,6 @@ main {.articuloprevencion
         display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: wrap;
     align-content: center;
   
     .salud1{
@@ -38,6 +37,23 @@ main {.articuloprevencion
     
     }}}}
 
+    .container-salud2{
+      display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
+
+  .salud2{
+  margin:20px;
+  padding:20px;  
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  }}
+
     .container_footer{
 margin: 20px;
 padding:30px ;
@@ -45,18 +61,18 @@ padding:30px ;
     }
 /* Titulo Principal Unimed-medicina privada*/
 .unimedh1{
-padding: 25px;
-margin:25px;
+padding: 20px;
+margin:20px;
 }
 /* Titulo Novedades*/
 .novedades{
-  padding: 25px;
-margin:25px;
+  padding: 20px;
+margin:20px;
 }
 /* Titulo Temas de Salud*/
 .temah2{
-  padding: 25px;
-  margin:25px;
+  padding: 20px;
+  margin:20px;
 }
 
 /*imagenes de vacunacion*/
@@ -73,4 +89,32 @@ align-items: center;
 
 
 }
+/* seccion afiliaciones*/
+.quieroafiliarme{
+  display:flex;
+  justify-content: center;
 
+}
+
+.afiliacion_1{display: flex;
+  flex-direction: column;
+  margin: 15px;
+  
+}
+.afiliacion_2{display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+  
+}
+
+/*seccion credencial*/
+
+.container-credencial{display: flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+
+
+
+}
