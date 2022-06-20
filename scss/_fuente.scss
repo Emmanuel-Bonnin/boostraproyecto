@@ -17,6 +17,7 @@ p{
 
 }
 .h1afiliaciones{ font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
     font-size: 35px!important;
     font-weight: 600;
     color: $colorlila;
@@ -27,10 +28,43 @@ p{
     font-size: 35px!important;
     font-weight: 600;
     color: $colorlila;
+
+
+}
+
+.pafiliaciones{margin:15px;
+
+
+
 }
 .nav-item{
       
-    font-family:"Roboto";
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
    
+   
   }
+
+.h1tramitesonline{font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 35px!important;
+    font-weight: 600;
+    color: $colorlila;
+
+}
+.h2tramitesonline{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-left: 15px;
+    color: $colorlila;
+
+}
+
+.h2listadodeprestadores{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: $colorlila;
+
+}

@@ -26,7 +26,7 @@
 
 }
 
-.data{width: 300px;
+.data{width: 330px;
 
 }
 
@@ -58,4 +58,13 @@
   max-width: 1000px;
   padding: 0;
   margin: 20px auto 0 auto;
+}
+
+.linea2{
+  border-left:2px solid $colorlila;
+  height: 680px;
+  padding: 0;
+  margin: 30px auto 0 auto;
+
+
 }

@@ -1,3 +1,38 @@
+/*header&footer*/
+header {
+  background: linear-gradient(to bottom, #50045f, white) !important; }
+
+footer {
+  background: linear-gradient(to bottom, #50045f, white) !important; }
+
+/*temasdesalud*/
+h1 {
+  display: flex;
+  justify-content: space-evenly;
+  color: #593199; }
+
+h2 {
+  color: #50045f; }
+
+h3 {
+  color: #50045f; }
+
+h4 {
+  color: #50045f; }
+
+h5 {
+  color: #50045f; }
+
+p {
+  color: #666565; }
+
+/*tablalistadeprestadores*/
+tr:hover {
+  color: #50045f; }
+
+td:hover {
+  color: #50045f; }
+
 .nav-item {
   display: flex;
   justify-content: center; }
@@ -92,6 +127,200 @@ main .articuloprevencion {
   margin-bottom: 30px;
   margin-top: 30px; }
 
+/*seccion tramites online*/
+.tramitesonlinelista {
+  background-color: silver;
+  display: flex;
+  align-items: center;
+  align-items: flex-start; }
+
+.ulist {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  margin-left: 10%;
+  padding: 15px; }
+
+.litramites {
+  margin: 5px;
+  padding: 5px;
+  font-family: "arial";
+  font-weight: 600;
+  color: #50045f; }
+
+/*header&footer*/
+header {
+  background: linear-gradient(to bottom, #50045f, white) !important; }
+
+footer {
+  background: linear-gradient(to bottom, #50045f, white) !important; }
+
+/*temasdesalud*/
+h1 {
+  display: flex;
+  justify-content: space-evenly;
+  color: #593199; }
+
+h2 {
+  color: #50045f; }
+
+h3 {
+  color: #50045f; }
+
+h4 {
+  color: #50045f; }
+
+h5 {
+  color: #50045f; }
+
+p {
+  color: #666565; }
+
+/*tablalistadeprestadores*/
+tr:hover {
+  color: #50045f; }
+
+td:hover {
+  color: #50045f; }
+
+/*numero telefono*/
+.telefonocontacto {
+  color: red;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-radius: 20px !important;
+  border-color: #a3a3a3 !important;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.form-registro {
+  width: 400px;
+  background: linear-gradient(to bottom, #50045f, #0b5c70) !important;
+  padding: 30px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+  font-family: "Roboto";
+  color: white; }
+
+.data {
+  width: 330px; }
+
+.submit {
+  background: #610c83;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 90px;
+  padding: 15px;
+  font-family: "Roboto";
+  border-radius: 30px;
+  color: white; }
+
+/*carrusel*/
+.carousel-caption {
+  margin-bottom: 140px !important;
+  background-color: rgba(255, 255, 255, 0.4) !important; }
+
+.linea {
+  border-top: 15px solid #50045f;
+  height: 2px;
+  max-width: 1000px;
+  padding: 0;
+  margin: 20px auto 0 auto; }
+
+.linea2 {
+  border-left: 2px solid #50045f;
+  height: 680px;
+  padding: 0;
+  margin: 30px auto 0 auto; }
+
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+  main .articuloprevencion {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center; }
+    main .articuloprevencion .container-salud {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-content: center; }
+      main .articuloprevencion .container-salud .salud1 {
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center; }
+  .container-salud2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center; }
+    .container-salud2 .salud2 {
+      margin: 20px;
+      padding: 20px;
+      display: flex;
+      align-self: center;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center; }
+  /*seccion credencial*/
+  .container-credencial {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    flex-direction: column; }
+  /*seccion tramites online*/
+  .tramitesonlinelista {
+    background-color: silver;
+    display: flex;
+    flex-direction: column !important; }
+  /* seccion afiliaciones*/
+  .quieroafiliarme {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center; }
+  .linea2 {
+    display: none; }
+  .form-registro {
+    width: 290px;
+    background: linear-gradient(to bottom, #50045f, #0b5c70) !important;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    font-family: "Roboto";
+    color: white; }
+  .data {
+    width: 250px; }
+  .submit {
+    background: #610c83;
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 15px;
+    font-family: "Roboto";
+    border-radius: 30px;
+    color: white; }
+  .h1tramitesonline {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px; }
+  .ulist {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    margin-left: 20px; } }
+
 /*header&footer*/
 header {
   background: linear-gradient(to bottom, #50045f, white) !important; }
@@ -141,6 +370,7 @@ p {
 
 .h1afiliaciones {
   font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
   font-size: 35px !important;
   font-weight: 600;
   color: #50045f; }
@@ -151,9 +381,32 @@ p {
   font-weight: 600;
   color: #50045f; }
 
+.pafiliaciones {
+  margin: 15px; }
+
 .nav-item {
-  font-family: "Roboto";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px; }
+
+.h1tramitesonline {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 35px !important;
+  font-weight: 600;
+  color: #50045f; }
+
+.h2tramitesonline {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  margin-left: 15px;
+  color: #50045f; }
+
+.h2listadodeprestadores {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #50045f; }
 
 /*header&footer*/
 header {
@@ -231,14 +484,6 @@ td:hover {
   background-color: #6310b1;
   border-radius: 20px; }
 
-/*imagensaludprevencion*/
-.salud1 :hover {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3); }
-  .salud1 :hover {
-    overflow: hidden;
-    transition: all .5s ease-in-out; }
-
 .submit:hover {
   background: #370eca; }
 
@@ -266,7 +511,7 @@ td:hover {
 /*maps 2*/
 /*articuloprevencion 4 */
 .temassalud {
-  width: 330px;
+  width: 320px;
   height: 250px;
   border-radius: 8px; }
 
@@ -279,85 +524,3 @@ td:hover {
     .logo:hover, .logo2:hover {
       overflow: hidden;
       transition: all .5s ease-in-out; }
-
-/*header&footer*/
-header {
-  background: linear-gradient(to bottom, #50045f, white) !important; }
-
-footer {
-  background: linear-gradient(to bottom, #50045f, white) !important; }
-
-/*temasdesalud*/
-h1 {
-  display: flex;
-  justify-content: space-evenly;
-  color: #593199; }
-
-h2 {
-  color: #50045f; }
-
-h3 {
-  color: #50045f; }
-
-h4 {
-  color: #50045f; }
-
-h5 {
-  color: #50045f; }
-
-p {
-  color: #666565; }
-
-/*tablalistadeprestadores*/
-tr:hover {
-  color: #50045f; }
-
-td:hover {
-  color: #50045f; }
-
-/*numero telefono*/
-.telefonocontacto {
-  color: red;
-  border-width: 1px !important;
-  border-style: solid !important;
-  border-radius: 20px !important;
-  border-color: #a3a3a3 !important;
-  margin-top: 50px;
-  margin-bottom: 50px; }
-
-.form-registro {
-  width: 400px;
-  background: linear-gradient(to bottom, #50045f, #0b5c70) !important;
-  padding: 30px;
-  margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-right: 15px;
-  border-radius: 10px;
-  font-family: "Roboto";
-  color: white; }
-
-.data {
-  width: 300px; }
-
-.submit {
-  background: #610c83;
-  width: 150px;
-  margin-top: 20px;
-  margin-left: 90px;
-  padding: 15px;
-  font-family: "Roboto";
-  border-radius: 30px;
-  color: white; }
-
-/*carrusel*/
-.carousel-caption {
-  margin-bottom: 140px !important;
-  background-color: rgba(255, 255, 255, 0.4) !important; }
-
-.linea {
-  border-top: 15px solid #50045f;
-  height: 2px;
-  max-width: 1000px;
-  padding: 0;
-  margin: 20px auto 0 auto; }

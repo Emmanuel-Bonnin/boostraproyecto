@@ -1,4 +1,4 @@
-
+@import"colores";
   .nav-item{
       
     display: flex;
@@ -118,3 +118,29 @@ align-items: center;
 
 
 }
+
+/*seccion tramites online*/
+
+.tramitesonlinelista {
+  background-color: silver;
+  display: flex;
+  align-items: center;
+  align-items: flex-start}
+
+
+.ulist{display: flex;
+  flex-direction:column;
+margin: 20px;
+margin-left: 10%;
+padding:15px;
+
+}
+
+.litramites{
+  margin: 5px;
+  padding:5px;
+  font-family: "arial";
+  font-weight: 600;
+  color: $colorlila;
+}
+
